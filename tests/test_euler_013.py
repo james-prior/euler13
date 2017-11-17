@@ -5,6 +5,7 @@ from euler_013 import first_ten_digits
 number_to_first_ten_digits = {
     1234567890: 1234567890,
     544543254252554325425254325254324254: 5445432542,
+    4252554325425254325254324254: 4252554325,
 }
 @pytest.mark.parametrize('number, expected_number', number_to_first_ten_digits.items())
 def test_known_number_returns_expected(number, expected_number):
