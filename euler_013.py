@@ -8,6 +8,6 @@ def first_ten_digits(x):
     :param x: input (too long) number
     :return: first 10 digits of the number
     """
-    nbr_string = str(x)
-    first_digits = int(nbr_string[:10])
+    number_string = str(x)
+    first_digits = int(number_string[:10])
     return first_digits
