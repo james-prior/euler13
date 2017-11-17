@@ -11,3 +11,5 @@ def first_ten_digits(x):
     number_string = str(x)
     first_digits = int(number_string[:10])
     return first_digits
+
+# EOF
